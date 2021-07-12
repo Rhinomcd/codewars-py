@@ -13,3 +13,5 @@ test.assert_equals(c.decode('laxxhsj'), 'waffles')
 
 test.assert_equals(c.encode('CODEWARS'), 'CODEWARS')
 test.assert_equals(c.decode('CODEWARS'), 'CODEWARS')
+
+test.assert_equals(c.encode("it's a shift cipher!"), "xt'k o vwixl qzswej!")
